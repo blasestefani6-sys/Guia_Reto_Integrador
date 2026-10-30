@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff5ed;
+    color: #49382f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#titulo {
+    color: rgb(120, 65, 45);
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px white;
+}
+.portada {
+    background-image: url("https://media.istockphoto.com/id/508582768/es/vector/rojo-gato-retrato-ilustrado.jpg?s=612x612&w=0&k=20&c=AG2-g4ukhlSJyszAtk1Mu2D71IoZ_-OOiwosfQgzlZM=");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    min-height: 50vh;
+    margin: 20px auto;
+    padding: 40px 20px;
+    text-align: center;
+    width: 90%;
+}
+.tarjeta {
+    background-color: hsl(35, 100%, 95%);
+    border: 3px solid #d69b77;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 25px;
+    text-align: center;
+    width: 80%;
+}
+.tarjeta h1 {
+    color: #a65d3f;
+    font-size: 1.8rem;
+    text-align: center;
+}
+#parrafo {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+    text-align: center;
+}
+.tarjeta li {
+    margin: 10px;
+    text-align: justify;
+}
+.boton {
+    background-color: rgb(190, 115, 75);
+    border: transparent;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 12px 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.boton:hover {
+    background-color: #75432e;
+    transform: scale(1.05);
+}
+
+
+
+
